@@ -1,5 +1,5 @@
 ﻿var input = File.ReadLines("input.txt")
-    .Select(x => int.Parse(x))
+    .Select(line => int.Parse(line))
     .ToArray();
 
 var increaseingCount = 0;
